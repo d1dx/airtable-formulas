@@ -1,1 +1,3 @@
+// This formula generates a direct download link using the Google Drive file ID.
+
 'https://drive.google.com/uc?export=download&id='&REGEX_EXTRACT({File ID}, "[-_a-zA-Z0-9]{25,}")
