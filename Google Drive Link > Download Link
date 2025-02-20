@@ -1,1 +1,1 @@
-'https://drive.google.com/uc?export=download&id='&REGEX_EXTRACT({CV Temporary}, "[-_a-zA-Z0-9]{25,}")
+'https://drive.google.com/uc?export=download&id='&REGEX_EXTRACT({File ID}, "[-_a-zA-Z0-9]{25,}")
